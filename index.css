@@ -4615,13 +4615,13 @@ border-radius: 8px;
 margin: auto;
 padding: 0px;
 
-width: 328px;
+
 height: 800px;
 
-background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+/* background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%); */
 /* Base/White */
 
-border: 2px solid #FFFFFF;
+/* border: 2px solid #FFFFFF; */
 /* Background blur/sm */
 
 backdrop-filter: blur(4px);
@@ -4635,13 +4635,13 @@ border-radius: 8px;
   margin: auto;
   padding: 0px;
   
-  width: 328px;
+  /* width: 328px; */
   height: 800px;
   
-  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%); */
   /* Base/White */
   
-  border: 2px solid #FFFFFF;
+  /* border: 2px solid #FFFFFF; */
   /* Background blur/sm */
   
   backdrop-filter: blur(4px);
@@ -4655,13 +4655,13 @@ border-radius: 8px;
   margin: auto;
   padding: 0px;
   
-  width: 328px;
+  /* width: 328px; */
   height: 800px;
   
-  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%); */
   /* Base/White */
   
-  border: 2px solid #FFFFFF;
+  /* border: 2px solid #FFFFFF; */
   /* Background blur/sm */
   
   backdrop-filter: blur(4px);
@@ -4675,13 +4675,13 @@ border-radius: 8px;
   margin: auto;
   padding: 0px;
   
-  width: 328px;
+  /* width: 328px; */
   height: 800px;
   
-  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%); */
   /* Base/White */
   
-  border: 2px solid #FFFFFF;
+  /* border: 2px solid #FFFFFF; */
   /* Background blur/sm */
   
   backdrop-filter: blur(4px);
