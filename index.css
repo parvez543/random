@@ -617,7 +617,7 @@ nav {
 }
 /* Header */
 .headContent {
-  background-image: url(./home4k/H_S/Vector_1.svg);
+  background-image: url(./assets/images/HomePage/HeroSection/Vector_1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   /* max-width: 100%; */
@@ -902,22 +902,56 @@ nav {
   color: #475467;
 }
 
-.dashboard {
-  /* max-width: 96% !important; */
+/* .dashboard {
+  max-width: 96% !important;
 }
+.dashboards{
+  max-width: 83% !important;
+}
+
 .dashboardImages{
   margin-left: -50px;
 }
 .goUpHeadings{
-  margin-left: -30px;
+  margin-left: -135px;
+  width: 327px;
+  height: 132px;
+  
+
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  
+  letter-spacing: -0.02em;
+  
+
+  
+  color: #101828;
+} */
+.goUpParas{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 327px;
+height: 140px;
+margin-left: -135px;
+margin-top: 12px;
 }
+
 .reduceText{
   width: 327px;
 }
 
 .dashboardMobile {
   width: 1280px !important;
-  margin-left: -21px;
+  /* margin-left: -21px; */
 
 }
 
@@ -3499,32 +3533,7 @@ input {
   filter: blur(90px);
   /* overflow-x: hidden; */
 }
-.clippingImageOne {
-  /* width: 1170px; */
-  height: 781px;
-  position: relative;
-  border-radius: 8px;
-}
-.clipHeading {
-  width: 240px;
-  /* height: 88px; */
-  display: block;
-  margin: auto;
-  /* Display md/Bold */
 
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  /* or 122% */
-
-  letter-spacing: -0.02em;
-
-  /* Gray/900 */
-
-  color: #101828;
-}
 .clipOne {
   height: 717px;
   box-shadow: 2px 15px 50px 2px rgba(16, 24, 40, 0.14);
@@ -3542,7 +3551,7 @@ input {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   /* or 150% */
 
@@ -3869,7 +3878,7 @@ input {
 
 /* FAQ Section Start */
 .faqContainer {
-  background: url(./home4k/H_S/FaQ.svg);
+  background: url(./assets/images/HomePage/Faq/Mesh.svg);
   /* height: 1314px; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -4389,26 +4398,9 @@ li {
   /* transform: matrix(1, -0.06, -0.06, -1, 0, 0); */
 }
 
-.homServiceSinglimg {
-background-image: url(./home4k/H_S/mul.svg);
-}
 
-.missionContainer {
-  /* width: 1216px; */
-  /* height: 463px; */
-  display: block;
-  margin: auto;
-  /* G/1 */
-  /* padding: 76px; */
 
-  background: linear-gradient(
-    90.38deg,
-    #f6f9db 0.04%,
-    #f6f9db 0.05%,
-    #d9f9e8 99.39%
-  );
-  border-radius: 32px;
-}
+
 
 .missionAndValues {
   /* width: 327px; */
@@ -4598,28 +4590,13 @@ border-radius: 8px;
   color: #475467;
 }
 
-
-
-.logo {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-.logo:hover {
-  filter: none;
-}
-
-.multiClipContainer{
-  /* Auto layout */
-
-/* display: flex;
-flex-direction: column;
-align-items: flex-start; */
+.multiClipMobile{
+display: block;
+margin: 55px auto;
 padding: 0px;
 
 width: 328px;
 height: 704px;
-display: block;
-margin: 60px auto;
 
 background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
 /* Base/White */
@@ -4631,6 +4608,236 @@ backdrop-filter: blur(4px);
 /* Note: backdrop-filter has minimal browser support */
 
 border-radius: 8px;
+}
+
+.apperalContainer{
+  display: block;
+margin: auto;
+padding: 0px;
+
+width: 328px;
+height: 800px;
+
+background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+/* Base/White */
+
+border: 2px solid #FFFFFF;
+/* Background blur/sm */
+
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 8px;
+}
+.footContainer{
+ 
+    display: block;
+  margin: auto;
+  padding: 0px;
+  
+  width: 328px;
+  height: 800px;
+  
+  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* Base/White */
+  
+  border: 2px solid #FFFFFF;
+  /* Background blur/sm */
+  
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 8px;
+  
+}
+.manneContainer{
+  display: block;
+  margin: auto;
+  padding: 0px;
+  
+  width: 328px;
+  height: 800px;
+  
+  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* Base/White */
+  
+  border: 2px solid #FFFFFF;
+  /* Background blur/sm */
+  
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 8px;
+}
+.vectorContainers{
+
+  display: block;
+  margin: auto;
+  padding: 0px;
+  
+  width: 328px;
+  height: 800px;
+  
+  background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%);
+  /* Base/White */
+  
+  border: 2px solid #FFFFFF;
+  /* Background blur/sm */
+  
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 8px;
+}
+
+
+.logo {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+.logo:hover {
+  filter: none;
+}
+
+.clipOneImageContainer{
+  position: relative;
+}
+
+.clipOneImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  width: 100%;
+  height: 267.2px;
+
+  background: linear-gradient(to bottom, rgb(174, 255, 201), rgb(151, 213, 224));
+  /* opacity: 0.6; */
+  filter: blur(90px);
+  transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+}
+
+.apperalImageContainer{
+  position: relative;
+}
+
+.apperalImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  width: 100%;
+  height: 267.2px;
+
+  background: linear-gradient(rgb(160, 249, 255),rgb(144, 211, 255));
+  /* opacity: 0.6; */
+  filter: blur(90px);
+  transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+}
+
+.footwearImageContainer{
+  position: relative;
+}
+
+.footwearImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  width: 100%;
+  height: 267.2px;
+
+  background: linear-gradient(rgb(215, 155, 255),rgb(144, 211, 255));
+  /* opacity: 0.6; */
+  filter: blur(90px);
+  transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+}
+.manneImageContainer{
+  position: relative;
+}
+
+.manneImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  width: 100%;
+  height: 267.2px;
+
+  background: linear-gradient(rgb(186, 230, 255),rgb(144, 211, 255));
+  /* opacity: 0.6; */
+  filter: blur(90px);
+  transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+}
+
+  /* background-image: url(./assets/images/HomePage/services/apparelBgMobile.svg); */
+
+  .vectorImageContainer{
+    position: relative;
+  }
+  
+  .vectorImageContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    width: 100%;
+    height: 267.2px;
+  
+    background: linear-gradient(rgb(255, 185, 185),rgb(144, 211, 255));
+    /* opacity: 0.6; */
+    filter: blur(90px);
+    transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+  }
+.clipHeading {
+  width: 240px;
+  /* height: 88px; */
+  display: block;
+  margin: auto;
+  /* Display md/Bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 36px; */
+  line-height: 44px;
+  /* or 122% */
+
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+
+  color: #101828;
+}
+
+.flexContentContainer{
+  position: relative;
+}
+.flexContentContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 250px;
+  width: 40px;
+  height: 1600px;
+
+  background: linear-gradient(
+    to right,
+    rgba(102, 122, 253, 0.5),
+    rgba(160, 250, 205, 0.5)
+  );
+  /* opacity: 0.6; */
+  filter: blur(90px);
+  transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+  /* transform: matrix(1, -0.06, -0.06, -1, 0, 0); */
+  /* transform: rotate(-360deg); */
+  /* overflow-x: hidden; */
 }
 
 /* Media Query */
@@ -4658,7 +4865,6 @@ border-radius: 8px;
 
 @media screen and(max-width:360px) {
  
-  
 
   .successContainerContent {
     position: relative;
@@ -4682,37 +4888,42 @@ border-radius: 8px;
   }
   .logoContainer {
     /* Auto layout */
-  
-   
-  
-    background-image: url(./home4k/H_S/footerbg.svg);
+    background-image: url(./assets/images/footer/footerbg.svg);
     /* Base/White */
   
     /* border: 1px solid #ffffff; */
     /* Background blur / xl */
-  
     backdrop-filter: blur(20px);
     /* Note: backdrop-filter has minimal browser support */
   
     /* border-radius: 16px; */
   }
-  .howItWorksContainer {
-    background-image: url(./home4k/H_S/process.svg);
-    /* width: 360px !important; */
-  }
-  .processContainer {
-    background-image: none;
   
-  }
+  
 }
-
-.flexContentContainer{
-  background-image: url(./home4k/H_S/flexContainer.svg);
-  background-size: cover;
-  /* height: 739.93px; */
-}
-
 @media (min-width: 1280px) {
+  .homServiceSinglimg {
+    /* background-image: url(./assets/images/HomePage/services/mul.svg); */
+    background-repeat: no-repeat;
+    }
+    
+    .missionContainer {
+      /* width: 1216px; */
+      /* height: 463px; */
+      display: block;
+      margin: auto;
+      /* G/1 */
+      /* padding: 76px; */
+    
+      background: linear-gradient(
+        90.38deg,
+        #f6f9db 0.04%,
+        #f6f9db 0.05%,
+        #d9f9e8 99.39%
+      );
+      border-radius: 32px;
+    }
+
   .processContainer {
     background-image: url(./assets/images/HomePage/howItWorks/Mesh-1.svg);
       width: 1056px;
@@ -4743,6 +4954,15 @@ border-radius: 8px;
     /* transform: rotate(-360deg); */
     /* overflow-x: hidden; */
   }
+
+  /* Appareal */
+ 
+
+  /* Footwear */
+ 
+  /* Ghost */
+ 
+
   .flexContainer {
     position: relative;
   }
@@ -4771,6 +4991,7 @@ border-radius: 8px;
     height: 1184px;
     margin-top: -120px;
     background-size: cover;
+    padding-top: 60px;
     background: #f6f5fe;
   }
 
@@ -4795,4 +5016,98 @@ border-radius: 8px;
     transform: matrix(1, -0.06, -0.06, -1, 0, 0);
     /* overflow-x: hidden; */
   }
+  .clippingImageOne {
+    /* width: 1170px; */
+    
+    position: relative;
+    border-radius: 8px;
+  }
+ 
+  .multiClipContainer{
+    /* Auto layout */
+  
+  display: flex;
+  /* flex-direction: column;
+  align-items: flex-start; */
+  padding: 0px;
+  
+  /* width: 328px; */
+  height: 704px;
+  display: block;
+  margin: 60px auto;
+  position: relative;
+  z-index: 1;
+  
+  /* background: linear-gradient(171.6deg, rgba(255, 255, 255, 0.64) 0%, rgba(255, 255, 255, 0.4) 100.43%); */
+  /* Base/White */
+  
+  /* border: 2px solid #FFFFFF; */
+  /* Background blur/sm */
+  
+  /* backdrop-filter: blur(4px); */
+  /* Note: backdrop-filter has minimal browser support */
+  
+  /* border-radius: 8px; */
+  }
+  .homServiceSinglimgApperal{
+    position: relative;
+  }
+  .homServiceSinglimgApperal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    width: 100%;
+    height: 267.2px;
+  
+    background: linear-gradient(rgb(235, 148, 253), rgb(153, 238, 197));
+    /* opacity: 0.6; */
+    filter: blur(90px);
+    transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+    /* transform: matrix(1, -0.06, -0.06, -1, 0, 0); */
+    /* transform: rotate(-360deg); */
+    /* overflow-x: hidden; */
+  }
+  .homServiceSinglimgFootwear{
+    position: relative;
+  }
+  .homServiceSinglimgFootwear::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    width: 100%;
+    height: 267.2px;
+  
+    background: linear-gradient(rgb(248, 255, 149), rgb(153, 238, 197));
+    /* opacity: 0.6; */
+    filter: blur(90px);
+    transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+    /* transform: matrix(1, -0.06, -0.06, -1, 0, 0); */
+    /* transform: rotate(-360deg); */
+    /* overflow-x: hidden; */
+  }
+  .homServiceSinglimgManne{
+    position: relative;
+  }
+  .homServiceSinglimgManne::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    width: 100%;
+    height: 267.2px;
+  
+    background: linear-gradient(rgb(255, 188, 149), rgb(153, 238, 197));
+    /* opacity: 0.6; */
+    filter: blur(90px);
+    transform: matrix(1, 0.06, 0.06, 1, 0, 0);
+    /* transform: matrix(1, -0.06, -0.06, -1, 0, 0); */
+    /* transform: rotate(-360deg); */
+    /* overflow-x: hidden; */
+  }
+
 }
